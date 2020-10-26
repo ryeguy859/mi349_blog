@@ -1,0 +1,89 @@
+html{
+    background: #e3e3e3;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 40px;
+padding: 40px;
+color: #242424;
+border-top: 10px solid #242424;
+border-right: 10px solid crimson;
+border-left: 10px solid crimson;
+border-bottom: 10px solid green;
+background: #fff;
+}
+#home{
+    border-top: 2px solid #242424;
+    border-right: 2px solid #242424;
+    border-left: 2px solid #242424;
+    border-bottom: 2px solid  #242424;
+    margin: 5px;
+    line-height: 1.4em;
+
+
+}
+
+#about-me{
+    border-top: 2px solid #242424;
+    border-right: 2px solid #242424;
+    border-left: 2px solid #242424;
+    border-bottom: 2px solid  #242424;
+    margin: 5px;
+    line-height: 1.4em;
+
+
+}
+
+#contact-me{
+    border-top: 2px solid #242424;
+    border-right: 2px solid #242424;
+    border-left: 2px solid #242424;
+    border-bottom: 2px solid  #242424; 
+    margin: 5px;
+    line-height: 1.4em;
+
+
+}
+h1 {
+font-size: 3em;
+margin: 0;
+}
+
+p {
+line-height: 1.4em;
+
+}
+
+#blog {
+border-top: 1PX dotted #ccc;
+}
+
+.blog-post {
+    border-bottom: 1PX dotted #ccc;
+}
+
+h2{
+    font-size: 2em;
+margin: 10px;
+color: green;
+}
+
+#mario-blog{
+    color:  red;
+}
+
+a[href^="index.html"] {
+    background-color: #ccc;
+  }
+
+  a[href^="about.html"] {
+    background-color: #ccc;
+  }
+
+  a[href^="contact.html"] {
+    background-color: #ccc;
+  }
+
+
+
+
