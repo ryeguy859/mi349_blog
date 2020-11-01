@@ -30,7 +30,7 @@ background: #fff;
     border-bottom: 2px solid  #242424;
     margin: 5px;
     line-height: 1.4em;
-
+    display: flex;
 
 }
 
@@ -56,6 +56,7 @@ line-height: 1.4em;
 
 #blog {
 border-top: 1PX dotted #ccc;
+display: flex;
 }
 
 .blog-post {
@@ -84,6 +85,30 @@ a[href^="index.html"] {
     background-color: #ccc;
   }
 
+.navagation{
+    background-color: lightgray;
+    width: 150px;
+    position: sticky;
+    top: .5em;
+}
 
+
+
+article{
+    padding: 20px;
+    margin: 20px;
+}
+
+#submit{
+    margin: 20px;
+}
+
+#contact{
+    display:flex;
+}
+
+form{
+margin: 10px;
+}
 
 
