@@ -91,9 +91,6 @@ a[href^="index.html"] {
     position: sticky;
     top: .5em;
 }
-
-
-
 article{
     padding: 20px;
     margin: 20px;
@@ -111,4 +108,20 @@ form{
 margin: 10px;
 }
 
+#about{
+    border-top: 2px solid #242424;
+    border-right: 2px solid #242424;
+    border-left: 2px solid #242424;
+    border-bottom: 2px solid  #242424;
+    margin: 5px;
+    line-height: 1.4em;
+    display: flex;
 
+}
+
+/* Media Queries*/
+@media only screen and (max-width: 400px){
+    #blog {
+        background: red; 
+    }
+}
